@@ -1,0 +1,212 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #067b06;
+    border: 1.5px solid #000;
+    border-radius: 30px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1em 0 1em 0;
+}
+
+header h1 {
+    margin-bottom: .5em;
+    line-height: 1.5em;
+    color: #0404c4;
+}
+
+header span {
+    color: #ccc;
+}
+
+header p {
+    line-height: 2em;
+    color: #067b06;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1em 0 1em 0;
+}
+
+main h2 {
+    margin-bottom: 1em;
+    line-height: 1.5em;
+    color: #0404c4;
+}
+
+main button {
+    width: 220px;
+    height: 50px;
+    border-radius: 30px;
+    border: 3px solid #ccc;
+    cursor: pointer;
+    color: #fff;
+    background-color: #466ab7;
+    letter-spacing: 3px;
+    transition: .4s;
+    font-size: 1em;
+}
+
+main button:hover {
+    background-color: #099c09;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer span {
+    color: #ccc;
+    font-weight: bold;
+}
+
+footer span:hover {
+    transition: .4s;
+    color: #067b06;
+}
+
+footer h3 {
+    margin-top: 1em;
+    line-height: 1.5em;
+    color: #ff0000;
+}
+
+footer h4 {
+    margin-top: 1em;
+    line-height: 1.5em;
+    color: #ccc;
+}
+
+footer a {
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #067b06;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    header p {
+        font-size: 1.3em;
+    }
+
+    main h2 {
+        font-size: 2em;
+    }
+
+    main button {
+        width: 250px;
+        font-size: 1.5em;
+        height: 60px;
+    }
+
+    footer h3 {
+        font-size: 1.5em;
+    }
+
+    footer span {
+        font-size: 1.5em;
+    }
+
+    footer h4 {
+        font-size: 1.5em;
+    }
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    header h1 {
+        font-size: 3em;
+    }
+
+    header p {
+        font-size: 1.5em;
+    }
+
+    main h2 {
+        font-size: 1em;
+    }
+
+    main button {
+        width: 350px;
+        height: 70px;
+        font-size: 1.5em;
+    }
+
+    footer h3 {
+        font-size: 1.5em;
+    }
+
+    footer span {
+        font-size: 1.5em;
+    }
+
+    footer h4 {
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    header h1 {
+        font-size: 3em;
+    }
+
+    header p {
+        font-size: 2em;
+    }
+
+    main h2 {
+        font-size: 2em;
+    }
+
+    main button {
+        width: 350px;
+        height: 70px;
+        font-size: 1.5em;
+    }
+
+    footer h3 {
+        font-size: 1.5em;
+    }
+
+    footer span {
+        font-size: 1.5em;
+    }
+
+    footer h4 {
+        font-size: 1.5em;
+    }
+}

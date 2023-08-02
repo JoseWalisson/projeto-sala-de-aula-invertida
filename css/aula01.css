@@ -1,0 +1,179 @@
+header h1 {
+    line-height: 1.5em;
+}
+
+header h1 > span {
+    color: #a89f9f;
+}
+
+header p {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+main img {
+    width: 65vw;
+    height: 50vh;
+    background-position: center bottom;
+    background-size: cover;
+    margin-bottom: 50px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px #00000054;
+}
+
+main section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin: 0 20px 0 20px;
+}
+
+main section h2 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+
+main section p {
+    font-size: .8em;
+    line-height: 2em;
+}
+
+main #buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 30px 0 30px 0;
+}
+
+main .material-symbols-outlined {
+    font-size: 50px;
+}
+
+main #buttons a {
+    color: #a89f9f;
+    list-style-type: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    #carregamento {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 60px;
+        border: 3px solid #1313a3;
+        border-radius: 50px;
+        padding: 30px;
+    }
+
+    header p {
+        font-size: 1.5em;
+    }
+    
+    main img {
+        width: 80vw;
+        height: 70vh;
+    }
+
+    main section h2 {
+        font-size: 1.5em;
+    }
+
+    main section p {
+        font-size: 1em;
+    }
+
+    main .material-symbols-outlined {
+        font-size: 70px;
+    }
+
+    main #buttons {
+        margin: 50px 0 30px 0;
+        gap: 100px;
+    }
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+    header p {
+        font-size: 1.8em;
+    }
+
+    main img {
+        width: 70vw;
+        height: 80vh;
+    }
+
+    main section {
+        flex-direction: row;
+        margin: 0 30px 0 30px;
+    }
+
+    main section h2 {
+        font-size: 1.5em;
+    }
+
+    main section p {
+        font-size: 1em;
+    }
+
+    main .material-symbols-outlined {
+        font-size: 70px;
+    }
+
+    main #buttons {
+        gap: 100px;
+        margin: 50px 0 30px 0;
+    }
+
+    main #buttons > a:hover {
+        color: #1313a3;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    header p {
+        font-size: 1.8em;
+    }
+
+    main img {
+        width: 70vw;
+        height: 80vh;
+    }
+
+    main section {
+        flex-direction: row;
+        margin: 0 30px 0 30px;
+    }
+
+    main section h2 {
+        font-size: 1.5em;
+    }
+
+    main section p {
+        font-size: 1em;
+    }
+
+    main .material-symbols-outlined {
+        font-size: 70px;
+    }
+
+    main #buttons {
+        margin: 50px 0 30px 0;
+        gap: 100px;
+    }
+
+    main #buttons > a:hover {
+        color: #1313a3;
+    }
+}
