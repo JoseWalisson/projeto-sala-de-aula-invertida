@@ -6,7 +6,8 @@
 }
 
 #image {
-    background-image: url("../biosseguranca.jpg");
+    background-image: url("https://img.freepik.com/fotos-premium/um-soldado-militar-com-mascara-de-gas-e-uniforme-militar-na-rua_297535-4751.jpg?w=740");
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }

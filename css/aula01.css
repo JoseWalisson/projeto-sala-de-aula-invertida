@@ -55,7 +55,10 @@ header {
 
 header h1 {
     line-height: 1.5em;
-    color: #3232d0;
+    color: #2b2bac;
+    text-shadow: 5px 5px 7px #000000;
+    -webkit-text-stroke-color: #000;
+    -webkit-text-stroke-width: .5px;
 }
 
 header h1 > span {
@@ -100,6 +103,8 @@ main section h2, h3 {
     line-height: 1.5em;
     color: #067b06;
     text-shadow: 5px 5px 7px #000000;
+    -webkit-text-stroke-color: #000;
+    -webkit-text-stroke-width: .5px;
 }
 
 main section p, ul > li {
