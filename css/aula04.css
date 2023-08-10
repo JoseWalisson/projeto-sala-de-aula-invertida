@@ -6,17 +6,7 @@
 }
 
 #image {
-    background-image: url("../genetica.jpg");
+    background-image: url("../biosseguranca.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-article p {
-    margin-bottom: 1em;
-}
-
-#order {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
 }

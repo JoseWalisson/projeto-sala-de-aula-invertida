@@ -11,7 +11,7 @@
 }
 
 body {
-    background-image: url(../img-floresta.jpg);
+    background-image: url("../img-floresta.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -31,11 +31,17 @@ figure {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 1em;
 }
 
 figure > figcaption {
+    flex-wrap: wrap;
     font-size: 1em;
-    color: #fff;
+    color: #ffffff;
+    padding-top: 1em;
+    width: 70vw;
+    line-height: 1.5em;
+    word-wrap: break-word;
 }
 
 header {
@@ -74,7 +80,6 @@ main img {
     height: 50vh;
     background-position: center bottom;
     background-size: cover;
-    margin-bottom: 50px;
     border-radius: 30px;
     box-shadow: 5px 5px 5px #00000054;
 }

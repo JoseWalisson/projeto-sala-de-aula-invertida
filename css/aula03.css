@@ -6,17 +6,8 @@
 }
 
 #image {
-    background-image: url("../genetica.jpg");
+    background-image: url("../bioetica.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-article p {
-    margin-bottom: 1em;
-}
-
-#order {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+    background-position: center right;
 }
