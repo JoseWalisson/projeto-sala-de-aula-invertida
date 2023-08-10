@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+button {
+    margin-bottom: 1em;
+}
+
+.button-recusar {
+    background-color: #a50303;
+}
+
+.button-recusar:hover {
+    background-color: #d10606;
+}
