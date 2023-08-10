@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    letter-spacing: 3px;
 }
 
 body::-webkit-scrollbar {
@@ -19,8 +20,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     margin-bottom: 1em;
-    /* background-color: linear-gradient(to left, green, red); */
-    background: radial-gradient(circle, rgba(124,249,143,1) 0%, rgba(15,185,49,1) 35%, rgba(58,170,37,1) 100%);
+    background: radial-gradient(circle, #7cf98f 0%, #0fb931 35%, #3aaa25 100%);
 }
 
 header {
@@ -57,7 +57,7 @@ main {
 }
 
 main h2 {
-    margin-bottom: 1em;
+    margin: 0 0 1em 1em;
     line-height: 1.5em;
     color: #0404c4;
     text-shadow: 5px 5px 7px #00000020;
